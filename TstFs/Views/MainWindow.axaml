@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TstFs.Views.MainWindow">
+  <Window.Resources>
+    <FontFamily x:Key="MainFonts1">avares://TstFs/Assets/NotoSansHebrew-Regular.ttf#Noto Sans Hebrew, avares://TstFs/Assets/OpenSans-Regular.ttf#Open Sans</FontFamily>
+    <FontFamily x:Key="MainFonts2">avares://TstFs/Assets/OpenSans-Regular.ttf#Open Sans, avares://TstFs/Assets/NotoSansHebrew-Regular.ttf#Noto Sans Hebrew</FontFamily>
+  </Window.Resources>
+  <ScrollViewer>
+    <StackPanel>
+      <TextBlock FontFamily="{StaticResource MainFonts1}" FontSize="64">kğżȯgda</TextBlock>
+      <TextBlock FontFamily="{StaticResource MainFonts2}" FontSize="64">kğżȯgda</TextBlock>
+      <TextBlock FontSize="64">kğżȯgda</TextBlock>
+    </StackPanel>
+  </ScrollViewer>
+</Window>
